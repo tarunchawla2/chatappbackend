@@ -1,0 +1,20 @@
+{
+  "name": "backend-chat-app",
+  "version": "1.0.0",
+  "description": "Backend Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Tarun Chawla",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
